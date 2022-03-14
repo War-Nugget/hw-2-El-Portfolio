@@ -4,7 +4,6 @@
     --light: #e5e5e5;
 }
 * {
-    box-sizing: border-box;
     padding: 0;
     margin: 0;
     margin-bottom: 0px;
@@ -32,6 +31,7 @@ body {background-color: var(--light);
     display: inline-block;
     margin-left: 13px;
     list-style-type: none;
+    color: var(--light);
 }
 
 a {
@@ -71,11 +71,9 @@ a {
 }
 
 /* services section css */
-.row {
-    grid-row: inherit;
-}
 
-.servicesText.card {
+
+.workText.card {
     height: 280px;
     width: 400px;
     cursor: pointer;
@@ -93,6 +91,6 @@ a {
 .card:hover .servicesIcon {
     color: #008000;
 }
-.servicesText:hover {
+.workText:hover {
     border: 1px solid #008000;
 }
