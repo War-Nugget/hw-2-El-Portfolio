@@ -78,24 +78,29 @@ a {
 
 /* My works section css */
 
-/*#refactor{
+#refactor{
     background-image: url("./assets/Horiseon\ SS.png");
-    background-size: 400px;
-} Disregard the above
-*/
+    background-size: 450px;
+
+} 
+
 .work{
     margin-top: 0;
 }
 .workText.card {
     height: 280px;
-    cursor: pointer;   
+    cursor: pointer;
+    
   }
 .links{
     text-decoration: none;
     color: var(--secondary);
 }
 .card-title {
-    text-align: center;
+    margin-top: 15px;
+    float: right;
+    background-color: var(--primary);
+    color: var(--light);
     
 }
 
