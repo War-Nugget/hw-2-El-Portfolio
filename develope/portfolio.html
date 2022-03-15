@@ -32,7 +32,7 @@
     <section class="hero" id="home">
         <div class="container-fluid">
             <div class="row">
-            <div class="col-lg-12 col-md-12 hero-text" id="hero-text">
+            <div class="col-lg-12 col-md-12 hero-text" id="hero-text"> <!--Column Large 12: >= 992px, and medium >=768px-->
                 <img src="./assets/profile2.png" alt="Profile Picture">
 
             </div>
@@ -45,9 +45,9 @@
 
 <!-- about section-->
 <section id="about-me">
-    <div class="container-mt-4">
+    <div class="container-mt-4">  <!--Margin top 4-->
         <h1 class="text-center">About Me</h1>
-        <div class="row-mt-4">
+        <div class="row-mt-4">  <!--Row margin top 4-->
 
             <div>
                 <p> Hello! My name is Sahil Patel and I am a current student at Georgia Southwestern State University planning to transfer out on my last semester before completing my undergraduate degree.<br> I am also taking courses at Georgia Tech Coding Bootcamp in order to learn more about coding various projects and to further my education.</p>
@@ -64,12 +64,12 @@
         <h1 class="text-center">My Work</h1>
 
         <div class="row">
-            <div class="col-lg-4 mt-4">
-                <div class="card workText">
+            <div class="col-lg-4 mt-4"> <!--Column Large 4, Margin top 4-->
+                <div class="card workText" id="refactor">
                     <div class="card-body">                   
                         <h4 class="card-title mt-3">Code Refactoring</h4>
                         <p class="card-text mt-3">.
-                            This is a code I was given from Georgia Tech bootcamp that I was supposed to refactor.
+                            <a class="links" href="https://github.com/War-Nugget/hw-1-Code-Refactor">This is a code I was given from Georgia Tech bootcamp that I was supposed to refactor.</a>
                         </p>
                     </div>
                 </div>  
@@ -121,7 +121,7 @@
             <div class="col-lg-4 mt-4">
                 <div class="card workText">
                     <div class="card-body">                       
-                        <h4 class="card-title mt-3">Nada</h4>
+                        <h4 class="card-title mt-3">My Resume</h4>
                         <p class="card-text mt-3">Uh Oh better put something here.
                         </p>
                     </div>
@@ -131,6 +131,17 @@
     </div>
 </section>
 
+
+<section class=col-lg-6 id="contact">
+    <form action="https://formsubmit.co/sahildepatel@gmail.com" method="POST">
+    <input type="text" class="form-control" placeholder="Name here" required>
+    <small>I will not share your email with anyone else :)</small>
+    <input type="email" class="form-control" placeholder="email here" required>
+    <button type="submit">Send</button>
+</section>
+<footer>
+    <p>Made with Html, css, and Redbull</p>
+</footer>
 </body>
 
 </html>
