@@ -72,7 +72,7 @@ a {
     margin-bottom: 50px;
     
 }
-.row-mt-4{
+.rowmt-4{
     padding-top: 1.5rem;
 }
 
@@ -83,11 +83,13 @@ a {
     background-size: 400px;
 }
 */
+.work{
+    margin-top: 0;
+}
 .workText.card {
     height: 280px;
-    width: 400px;
     cursor: pointer;
-    display: grid;
+    
     
     
   }
@@ -102,4 +104,16 @@ a {
 
 .workText:hover {
     border: 3px solid var(--primary);
+}
+
+#contact{
+    margin-top: 100px;
+    margin-left: 40px;
+    display: inblock;
+}
+
+#footer{
+    margin-top: 100px;
+    text-align: center;
+  
 }
