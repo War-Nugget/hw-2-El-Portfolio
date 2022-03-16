@@ -36,7 +36,8 @@ This assignment assigned to me by Georgia Tech coding bootcamp and has taught me
 - Spacing: https://getbootstrap.com/docs/4.0/utilities/spacing/
 - Grid Systems (Really helped): https://getbootstrap.com/docs/4.0/layout/grid/
 
--Link to Bootstrap: https://getbootstrap.com/docs/5.1/getting-started/introduction/![Desktop]
-(https://user-images.githubusercontent.com/97697696/158509137-a31aabc0-e8e8-4395-924d-9b533f9dd426.png)
-![Phone]
-(https://user-images.githubusercontent.com/97697696/158509144-b573b5c1-c851-4479-9095-31d75581e9c5.png)
+-Link to Bootstrap: https://getbootstrap.com/docs/5.1/getting-started/introduction/
+
+![Desktop](https://user-images.githubusercontent.com/97697696/158509137-a31aabc0-e8e8-4395-924d-9b533f9dd426.png)
+
+![Phone](https://user-images.githubusercontent.com/97697696/158509144-b573b5c1-c851-4479-9095-31d75581e9c5.png)
